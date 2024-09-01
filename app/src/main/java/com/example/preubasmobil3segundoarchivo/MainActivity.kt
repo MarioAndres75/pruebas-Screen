@@ -45,7 +45,7 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     val scrollState = rememberScrollState()
-       Column (modifier = Modifier.fillMaxSize().padding(20.dp), //pantalla
+       Column (modifier = Modifier.fillMaxSize(), //pantalla
         horizontalAlignment = Alignment.CenterHorizontally){
 
         Image(alignment = Alignment.Center,                   //logo
